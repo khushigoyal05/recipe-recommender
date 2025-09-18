@@ -7,7 +7,8 @@ cd recipe-recommender
 # 3. Install the required dependencies
 pip install -r requirements.txt
 
-# 4. IMPORTANT: Manually download the required dataset (e.g., RAW_recipes.csv)
+# 4. IMPORTANT: Manually download 'RAW_recipes.csv' from Kaggle
+#    (https://www.kaggle.com/datasets/realalexanderwei/food-com-recipes-with-ingredients-and-tags)
 #    and place it inside a new 'data/' folder before proceeding.
 
 # 5. Run the Streamlit application
