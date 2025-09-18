@@ -1,14 +1,14 @@
-# AI-Based Recipe Recommender
+# 1. Clone the repository
+git clone https://github.com/khushigoyal05/recipe-recommender.git
 
-An AI-powered recipe recommendation system using NLP techniques.  
-- Built with Python and Streamlit  
-- TF-IDF and Cosine Similarity for ranking recipes  
-- Deployed as an interactive Streamlit app  
+# 2. Navigate into the project directory
+cd recipe-recommender
 
-## How to Run
-1. Clone this repo  
-2. Install dependencies: `pip install -r requirements.txt`  
-3. Run: `streamlit run app.py`
+# 3. Install the required dependencies
+pip install -r requirements.txt
 
-## Demo
-(Add deployment link here after hosting on Streamlit Cloud)
+# 4. IMPORTANT: Manually download the required dataset (e.g., RAW_recipes.csv)
+#    and place it inside a new 'data/' folder before proceeding.
+
+# 5. Run the Streamlit application
+streamlit run app.py
